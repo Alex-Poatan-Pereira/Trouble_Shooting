@@ -44,7 +44,10 @@ error: metadata-generation-failed
 
 note: This is an issue with the package mentioned above, not pip.
 hint: See above for details.
-(AI_1) t2024-m0198@t2024-m0198ui-MacBookAir transformers % 
+
+----
 
 `pip install transformers=="3.1.0" --no-dependencies ``
-no dependencies 옵션을 넣어주니깐 설치가 됨 하지만 여전히 주피터노트북에서는 improt 되지 않는다
+no dependencies 옵션을 넣어주니깐 설치가 됨 하지만 여전히 주피터노트북에서는 improt 되지 않는다.
+>
+#### 주피터 노트북에서 `!pip import transformers` 로 다시 설치하니깐 에러 안뜨고 제대로 작동!
