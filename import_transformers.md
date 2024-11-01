@@ -1,4 +1,5 @@
 ### 가상환경에 transformers를 설치하는데 자꾸 에러가 뜬다
+````
 (AI_1) t2024-m0198@t2024-m0198ui-MacBookAir transformers % pip install transformers
 Collecting transformers
   Using cached transformers-4.46.1-py3-none-any.whl.metadata (44 kB)
@@ -45,6 +46,7 @@ error: metadata-generation-failed
 note: This is an issue with the package mentioned above, not pip.
 hint: See above for details.
 
+````
 ----
 
 `pip install transformers=="3.1.0" --no-dependencies ``
