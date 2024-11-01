@@ -49,6 +49,21 @@ hint: See above for details.
 ````
 ----
 
+AI_1 이라는 가상환경을 생성한 후 import 시 에러가 발생
+>
+원인으로는
+- 누락되거나 오래된 종속성 : 설치하려는 패키지는 설치되지 않았거나 오래된 다른 패키지에 종속되어 있을 수 있다
+- 호환되지 않는 python 버전
+- 손상되었거나 setuptools의 손상
+- 네트워크 문제
+- C컴파일러 문제
+>
+해결 방법
+- `pip install --upgrade pip setuptools wheel`
+pip, setuptddls, wheel의 최신상태로 업그레이드 해주기
+나의 경우는 이 업그레이드를 통해 바로 해결되었다.
+>
+다른 방법으로는
 `pip install transformers=="3.1.0" --no-dependencies ``
 no dependencies 옵션을 넣어주니깐 설치가 됨 하지만 여전히 주피터노트북에서는 improt 되지 않는다.
 >
