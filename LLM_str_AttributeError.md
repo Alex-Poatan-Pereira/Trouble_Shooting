@@ -1,4 +1,4 @@
-[원본파일 링크]()
+[원본파일 링크](https://github.com/Alex-Poatan-Pereira/LLM_individual_project/blob/main/LLM_challenge.ipynb)
 ---
 ```
 에러 내용
